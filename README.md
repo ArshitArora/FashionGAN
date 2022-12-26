@@ -25,6 +25,7 @@ For the UI part of this model, we have used the gradio library in python.
 Gradio is the fastest way to demo your machine learning model with a friendly web interface
 Interface is Gradio's main high-level class, and allows you to create a web-based GUI / demo around a machine learning model (or any Python function) in a few lines of code. You must specify three parameters: (1) the function to create a GUI for (2) the desired input components and (3) the desired output components. Additional parameters can be used to control the appearance and behaviour of the demo.
 To use gradio in our system we use the command of :- import gradio as gr
-Class method that constructs an Interface from a Hugging Face transformers. Pipeline object. The input and output components are automatically determined from the pipeline.
+Class method that constructs an Interface from a Hugging Face transformers. Pipeli<img width="886" alt="Screenshot 2022-12-26 at 1 13 24 PM" src="https://user-images.githubusercontent.com/75275801/209575710-c854e947-61b1-4ab5-b430-6c80b1c55b72.png">
+ne object. The input and output components are automatically determined from the pipeline.
 
-![image](https://user-images.githubusercontent.com/75275801/209575603-0565c17f-787e-4f82-8c62-67abf2395560.png)
+
